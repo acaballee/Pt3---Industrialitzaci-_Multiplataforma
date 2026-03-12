@@ -76,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
         if (constraints.maxWidth < 450) {
           return Scaffold(
             body: Row(children: [MainArea(page: page)]),
-            bottomNavigationBar: NavigationBar(
+            bottomNavigationBar: isLogin ? null : NavigationBar(
               destinations: [
                 NavigationDestination(
                   icon: Icon(isLogin ? Icons.login : Icons.home),
