@@ -73,6 +73,8 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_SECONDFLUTERPT3 }}
           channelId: live
           projectId: secondfluterpt3
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
 
   build-android:
     name: Build Android (Release)
