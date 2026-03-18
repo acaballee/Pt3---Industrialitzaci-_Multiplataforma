@@ -69,3 +69,15 @@ build/
 
 # Symbol files
 *.pdb
+
+# Coverage reports
+coverage/
+
+# Environment variables
+.env
+.env.*
+
+# Firebase related
+.firebase/
+firebase-debug.log
+ui-debug.log
