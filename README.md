@@ -1,5 +1,11 @@
 # Documentació Tècnica: Projecte Flutter + Supabase
 
+> 👨‍💻 **Alumne:** Alex Caballé Arasa  
+> 🎓 **Cicle:** Ampliació de desenvolupament d'aplicacions multiplataforma  
+> 📅 **Data:** 5 / març / 2026  
+> 👨‍🏫 **Tutor:** Daniel Jesús Garcia  
+> 🔗 **Defensa Tècnica:** [Enllaç a Google Drive](https://drive.google.com/drive/folders/1u9DX9nurdtvsNsfVP5rNgfNMzo0jfAbt?usp=sharing)
+
 ## 1. Arquitectura de l'Aplicació
 Aquest projecte utilitza el framework **Flutter** per al desenvolupament _cross-platform_ (Web i Android) des d'una única base de codi. Per al backend i persistència de dades fa servir el BaaS, **Supabase**, utilitzat directament a través de trucades REST.
 
